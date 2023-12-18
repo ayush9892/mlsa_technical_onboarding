@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -18,7 +18,8 @@ import React from "react";
  */
 import image from "../images/cloud.jpg";
 
-const imageAltText = "a graphical representation of cloud computing infrastructure, with various device icons connected to a central cloud icon, set against a dark background with a subtle grid pattern and blurred server racks";
+const imageAltText =
+  "a graphical representation of cloud computing infrastructure, with various device icons connected to a central cloud icon, set against a dark background with a subtle grid pattern and blurred server racks";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -36,7 +37,7 @@ const skillsList = [
   "PySpark UDF",
   "ADF",
   "Databricks",
-  "Synapse"
+  "Synapse",
 ];
 
 /**
@@ -53,7 +54,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "#FFE4E1",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
